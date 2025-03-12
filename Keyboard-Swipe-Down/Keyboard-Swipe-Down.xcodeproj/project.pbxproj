@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7DA999192D8174110028F833 /* Exceptions for "Keyboard-Swipe-Down" folder in "Keyboard-Swipe-Down" target */ = {
+		7DA999192D8174110028F833 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7DA998F32D81740F0028F833 /* Keyboard-Swipe-Down */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7DA999192D8174110028F833 /* Exceptions for "Keyboard-Swipe-Down" folder in "Keyboard-Swipe-Down" target */,
-			);
-			path = "Keyboard-Swipe-Down";
-			sourceTree = "<group>";
-		};
-		7DA9990A2D8174110028F833 /* Keyboard-Swipe-DownTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Keyboard-Swipe-DownTests";
-			sourceTree = "<group>";
-		};
-		7DA999142D8174110028F833 /* Keyboard-Swipe-DownUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Keyboard-Swipe-DownUITests";
-			sourceTree = "<group>";
-		};
+		7DA998F32D81740F0028F833 /* Keyboard-Swipe-Down */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7DA999192D8174110028F833 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Keyboard-Swipe-Down"; sourceTree = "<group>"; };
+		7DA9990A2D8174110028F833 /* Keyboard-Swipe-DownTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Keyboard-Swipe-DownTests"; sourceTree = "<group>"; };
+		7DA999142D8174110028F833 /* Keyboard-Swipe-DownUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Keyboard-Swipe-DownUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = 7DA998EC2D81740F0028F833 /* Build configuration list for PBXProject "Keyboard-Swipe-Down" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = 7DA998E82D81740F0028F833;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7DA998F22D81740F0028F833 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
